@@ -1,0 +1,7 @@
+<h1>Welcome to the musical world</h1>
+<%@instruments.each do |instrument|%>
+  <div>
+    <h3><a href="/instruments/<%=instrument[:id]%>"><%=instrument[:name]%></a></h3>
+    <img src="<%=instrument[:image]%>">
+  </div>
+<%end%>
