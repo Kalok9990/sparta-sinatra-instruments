@@ -1,0 +1,50 @@
+body{
+  background: url(http://freedesignfile.com/upload/2017/04/Notes-and-butterflies-music-background-vector-14.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+  font-family: 'Spectral SC', serif;
+}
+
+.container{
+  height: 520px;
+}
+
+nav{
+  color: white;
+  background-color: black;
+  height: 50px;
+}
+
+nav a{
+  color: white;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+img{
+  width: 400px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.ind{
+  margin-left: 50px;
+}
+
+.ind img{
+  width: 100px;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  height: 50px;
+}
+
+footer h3{
+  padding-left: 30px;
+}
