@@ -1,0 +1,21 @@
+<form action="/<%= @instrument.id %>" method="POST">
+  <div>
+    <label>Name</label>
+    <input type="text" name="name" placeholder="Enter the name of the instrument" value="<%= @instrument.name %>">
+  </div>
+  <div>
+    <label>Info</label>
+    <textarea name="info" rows="8" cols="40" placeholder="Information of the instrument"><%= @instrument.info %></textarea>
+  </div>
+  <div>
+    <label>Image URL</label>
+    <input type="text" name="image" placeholder="Enter the URL for the image" value="<%= @instrument.image %>">
+  </div>
+  <div>
+    <input type="submit" value="Save Instrument">
+  </div>
+  <% if(@instrument.id) %>
+    <input type="hidden" name="_method" value="PUT">
+  <% end %>
+
+</form>
