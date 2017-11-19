@@ -8,25 +8,6 @@ class InstrumentController < Sinatra::Base
     register Sinatra::Reloader
   end
 
-  # $instruments = [{
-  #   id: 0,
-  #   name: "Piano",
-  #   info: "This is a string instrument",
-  #   image: "http://www.belfastmusic.co.uk/ekmps/shops/belfastmusic/images/v-piano-grand-1424-p.jpg"
-  # },
-  # {
-  #   id: 1,
-  #   name: "Trumpet",
-  #   info: "This is a brass instrument",
-  #   image: "https://images-na.ssl-images-amazon.com/images/I/41c90VJBDBL._SL500_AC_SS350_.jpg"
-  # },
-  # {
-  #   id: 2,
-  #   name: "Flute",
-  #   info: "This is a wind instrument",
-  #   image: "http://az632705.vo.msecnd.net/cmsroot/jupitermusic/media/jupiter-media/products/woodwinds/jaf1000e/angle1/jaf1000e_1.jpg"
-  # }]
-
   get "/" do
     @title = "Instuments Homepage"
     @instrument = Instrument.all

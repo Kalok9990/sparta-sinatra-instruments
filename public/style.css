@@ -8,7 +8,12 @@ body{
 }
 
 .container{
-  height: 520px;
+  min-height: 520px;
+}
+
+.inner{
+  padding: 0px 250px;
+  margin: 0px 200px;
 }
 
 nav{
@@ -34,6 +39,8 @@ a{
 
 .ind{
   margin-left: 50px;
+  float: left;
+  height: 185px;
 }
 
 .ind img{
