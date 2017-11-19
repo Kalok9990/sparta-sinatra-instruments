@@ -42,3 +42,9 @@ Your site will need to have the following:-
 *Deliverables*
 
 Our aim is to delivery working code. Work on little sections of functionality and only commit when something is working. This means you have always got something that is working in your last commit. You might not complete all the points above but what you do delivery it will be working.
+
+## Pleased
+I am pleased with how quickly I understood the use of databases and calling them into the web application.
+
+## Difficulties
+I had some trouble with the CSS but that was from me missing out on a small detail.
