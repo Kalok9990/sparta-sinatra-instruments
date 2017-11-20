@@ -1,5 +1,9 @@
-<h1><%= @instrument[:name]%></h1>
-<p><%= @instrument[:info]%></p>
+<h1><%= @instrument.name%></h1>
+<p><%= @instrument.info%></p>
 
-<a href="/instruments/<%= @instrument[:id]%>/edit">Edit</a>
-<img src="<%= @instrument[:image] %>">
+<a href="/<%= @instrument.id%>/edit">Edit</a>
+<img src="<%= @instrument.image %>">
+<form action="<%= @instrument.id %>" method="POST">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" name="name" value="Delete">
+</form>
